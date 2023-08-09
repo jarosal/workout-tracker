@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{54639429-3ADB-44E0-A2FC-D38B2B1B68A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{821611AA-C7D0-47A5-B3DA-8D714EC449B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutTracker", "src\backend\WorkoutTracker\WorkoutTracker.csproj", "{ABC27382-8627-44B5-AA56-796F48B65171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABC27382-8627-44B5-AA56-796F48B65171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC27382-8627-44B5-AA56-796F48B65171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC27382-8627-44B5-AA56-796F48B65171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC27382-8627-44B5-AA56-796F48B65171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{821611AA-C7D0-47A5-B3DA-8D714EC449B3} = {54639429-3ADB-44E0-A2FC-D38B2B1B68A9}
+		{ABC27382-8627-44B5-AA56-796F48B65171} = {821611AA-C7D0-47A5-B3DA-8D714EC449B3}
+	EndGlobalSection
+EndGlobal
